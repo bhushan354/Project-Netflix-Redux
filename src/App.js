@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 
-class App extends Component {
-  render() {
-    return (
-      <h2>Hello react blank page
-      </h2>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <h2>this is app js</h2>
+    </div>
+  );
 }
 
 export default App;
